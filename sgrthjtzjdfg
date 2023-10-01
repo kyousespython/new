@@ -147,7 +147,7 @@ function KaosHub:CreateWindow(title, gameName, intro)
 
     local themes = {
         SchemaColor = Color3.fromRGB(119, 0, 255),
-        TextColor = Color3.fromRGB(255, 255, 255),
+        TextColor = Color3.fromRGB(255, 0, 242),
         Header = Color3.fromRGB(22, 22, 22),
         Container = Color3.fromRGB(34, 34, 34),
         Background = Color3.fromRGB(22, 22, 22),
@@ -155,7 +155,7 @@ function KaosHub:CreateWindow(title, gameName, intro)
         Drop = Color3.fromRGB(28, 28, 28),
         ScrollBar = Color3.fromRGB(149, 149, 149),
         NotiBackground = Color3.fromRGB(0, 0, 0),
-        Glow = Color3.fromRGB(119, 0, 255),
+        Glow = Color3.fromRGB(212, 0, 255),
         Logo = "rbxassetid://14816023970"
     }
 
