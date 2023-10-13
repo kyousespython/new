@@ -15,7 +15,7 @@ warn("Checking Game Bypass..")
 warn("Checking other Instances..")
 print("Kaos Hub Loaded.")
 
-local Fully_Support_Exploits = {"Electron", "Valyse", "Fluxus", "ScriptWare", "Krnl", "VegaX"}
+local Fully_Support_Exploits = {"Electron", "Valyse", "Fluxus", "ScriptWare", "Krnl", "VegaX", "Furk"}
 
 local Tween = game:GetService("TweenService")
 local Tweeninfo = TweenInfo.new
@@ -155,8 +155,8 @@ function KaosHub:CreateWindow(title, gameName, intro)
         Drop = Color3.fromRGB(28, 28, 28),
         ScrollBar = Color3.fromRGB(116, 5, 150),
         NotiBackground = Color3.fromRGB(0, 0, 0),
-        Glow = Color3.fromRGB(212, 0, 255),
-        Logo = "rbxassetid://14816023970"
+        Glow = Color3.fromRGB(5, 5, 5),
+        Logo = "rbxassetid://15053362982"
     }
 
     table.insert(KaosHub, title)
